@@ -16,7 +16,7 @@
 #       file="Imports.tmp")
 # ---
 #
-#' @title RnaSeqTutorials package
+#' @title RnaSeqTutorial02 package
 #' @section Tutorials:
 #' This is the second in a series of tutorials
 #' \itemize{
@@ -27,7 +27,7 @@
 #' @rdname RnaSeqTutorial02-package
 #' @author Nicolas Delhomme [aut,cre]
 #' @keywords package
-#' @description A simple description of the RnaSeqTutorials package
+#' @description A simple description of the RnaSeqTutorial02 package
 #' @seealso The vignette
 #' @examples
 #' 	\dontrun{
