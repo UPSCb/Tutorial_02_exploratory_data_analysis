@@ -1,0 +1,25 @@
+Package: RnaSeqTutorial02
+Type: Package
+Title: Exploratory Data Analysis
+Version: 1.0.0
+Author: Nicolas Delhomme [aut, cre], Edoardo Piombo [aut]
+Maintainer: Nicolas Delhomme <nicolas.delhomme@umu.se>
+Description: A package containing the second tutorial in a series that go from the Exploratory Data Analysis
+    to the Differential Gene Expression, Differential Transcript Usage and Gene Set Enrichment Analysis
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.4.0),
+    DESeq2 (>= 1.46.0),
+    gplots (>= 3.2.0),
+    here (>= 1.0.1),
+    hexbin (>= 1.28.5),
+    hyperSpec (>= 0.100.2),
+    learnr (>= 0.11.5),
+    readr (>= 2.1.5),
+    tidyverse (>= 2.0.0),
+    vsn (>= 3.74.0)
+Suggests: BiocStyle, knitr, rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.3.2

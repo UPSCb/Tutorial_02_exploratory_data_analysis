@@ -1,0 +1,61 @@
+---
+title: "Tutorials on RNA-Seq Data Analysis"
+author:
+- name: Nicolas Delhomme
+  affiliation: UPSC
+  email: nicolas.delhomme@umu.se
+package: RnaSeqTutorial02
+output:
+  BiocStyle::html_document
+abstract: |
+  This is the second in a series of tutorials to learn about data science in R, perform an
+  RNA-Seq Exploratory Data Analysis, a Differential Gene Expression analysis, a
+  Differential Transcript Usage analysis, a Gene Set Enrichment Analysis and an
+  ensemble approach thereof.
+
+vignette: |
+  %\VignetteIndexEntry{RnaSeqTutorial02}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Getting started
+
+This is the second of a series of tutorials. It performs the exploratory data analysis of a public RNA-Seq dataset.
+
+To start the tutorial run:
+```{r tutorial, eval=FALSE}
+learnr::run_tutorial("02_exploratory_data_analysis", package = "RnaSeqTutorial02")
+```
+
+# Accessing the code
+
+## Tutorials
+
+The tutorial is available as a `.Rmd` file in the `tutorials` directory:
+
+```{r tutorial list}
+dir(system.file(package="RnaSeqTutorial02","tutorials"))
+```
+
+```{r tutorial paths}
+list.files(path=system.file(package="RnaSeqTutorial02","tutorials"),
+           pattern="*.Rmd",
+           recursive=TRUE)
+```
+
+## Scripts
+
+There is a script available in the `script` directory, associated with the tutorial.
+
+```{r script paths}
+list.files(path=system.file(package="RnaSeqTutorial02","scripts"),
+           pattern="*.R",
+           recursive=TRUE)
+```
+
+# Session info {.unnumbered}
+
+```{r sessionInfo, echo=FALSE}
+sessionInfo()
+```
