@@ -1,4 +1,4 @@
-# RnaSeqTutorial01
+# RnaSeqTutorial02
 
 Introduction to Data Science tutorial based on learnr
 
@@ -48,7 +48,7 @@ dir(system.file(package="RnaSeqTutorial02","tutorials"))
 ```
 
 ```{r tutorial paths}
-list.files(path=system.file(package="RnaSeqTutorial01","tutorials"),
+list.files(path=system.file(package="RnaSeqTutorial02","tutorials"),
            pattern="*.Rmd",
            recursive=TRUE)
 ```
