@@ -1,6 +1,6 @@
---- 
+---
 title: "Exploratory Data Analysis (EDA), _a.k.a._ Biological Quality Assessment"
-author: "Nicolas Delhomme for Bn Bioinformatics"
+author: "Nicolas Delhomme"
 tutorial:
   id: "se.upsc.tutorials.02_exploratory_data_analysis"
   version: 1.0.0
