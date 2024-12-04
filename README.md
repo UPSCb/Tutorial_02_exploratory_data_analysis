@@ -8,14 +8,14 @@ In R do the following to install the dependencies
 
 ```R
 if(!require("BiocManager")) {install.packages("BiocManager")}
-BiocManager::install(c("DESeq2","gplots","here","hexplot","hyperSpec","learnr","readr","tidyverse","vsn"))
+BiocManager::install(c("DESeq2","gplots","here","hexbin","hyperSpec","learnr","readr","tidyverse","vsn"))
 ```
 
 Then install the package using _e.g._ `pak`
 
  ```R
  if(!require("pak")){BiocManager::install("pak")}
- pak::pkg_install("UPSCb/Tutorial_02_data_science_intro")
+ pak::pkg_install("UPSCb/Tutorial_02_exploratory_data_analysis")
  ```
 
 ## Getting started
