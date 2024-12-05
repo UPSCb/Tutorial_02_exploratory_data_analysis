@@ -35,7 +35,7 @@ devtools::install_github("UPSCb/Tutorial_02_exploratory_data_analysis")
 
 ## Getting started
 
-This is the first in a series of tutorials.
+This is the second in a series of tutorials.
 
 1. 01_data_science_intro: an introduction to data science using the `palmerpenguins` package
 2. 02_exploratory_data_analysis: the exploratory data analysis of a public RNA-Seq dataset
