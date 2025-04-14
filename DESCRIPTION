@@ -11,7 +11,7 @@ Encoding: UTF-8
 LazyData: true
 Depends:
     R (>= 4.4.0),
-    DESeq2 (>= 1.46.0),
+    DESeq2 (>= 1.44.0),
     gplots (>= 3.2.0),
     here (>= 1.0.1),
     hexbin (>= 1.28.5),
