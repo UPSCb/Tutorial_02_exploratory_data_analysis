@@ -698,7 +698,7 @@ Now that we have the object ready, we can estimate the normalisation factor for 
 dds <- estimateSizeFactors(dds)
 ```
 
-As you may observe, `DESeq2` informs us that it will use the average transcript length to correct the expression values. The size factor will be calculated per gene per library, so the `DESeq2` function `normalizationFactor()` will return a matrix. Our next assessment is to figure out how (dis)similar these factors are across our dataset. Revisit the code we wrote for visualising the raw data count distribution per sample to visualise the normalisation factor. Instead of a `geom_bar()`, try to use a `geom_violin()`
+As you may observe, `DESeq2` informs us that it will use the average transcript length to correct the expression values. The size factor will be calculated per gene per library, so the `DESeq2` function `normalizationFactors()` will return a matrix. Our next assessment is to figure out how (dis)similar these factors are across our dataset. Revisit the code we wrote for visualising the raw data count distribution per sample to visualise the normalisation factor. Instead of a `geom_bar()`, try to use a `geom_violin()`
 
 ```{r norm_factor, exercise=TRUE, exercise.eval=FALSE, exercise.setup="dds-rds"}
 
